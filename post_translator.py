@@ -36,7 +36,7 @@ def main():
     log = logger.logger_init("posts_translate")
     log.info("Start publications translate")
 
-    src_path = "elagin_posts_with_adv.csv"
+    src_path = "csv/posts/elagin_posts_with_adv.csv"
     dest_path = "csv/posts/posts_en2.csv"
 
     if not os.path.exists(src_path):
