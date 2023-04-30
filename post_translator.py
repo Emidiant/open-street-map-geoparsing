@@ -30,8 +30,7 @@ def stop_and_save(log: logging.Logger, trans_new: list, df_trans: pd.DataFrame, 
 
 def main():
     """
-    Перевод публикаций
-    :return:
+    Перевод публикаций на английский язык и создание нового dataframe с id публикации и новым текстом
     """
     log = logger.logger_init("posts_translate")
     log.info("Start publications translate")
@@ -70,7 +69,7 @@ def main():
             if i % 100 == 0 and i != 0:
                 log.debug(i)
             try:
-                trans_new.append([post[0], translator.translate(post[1], dest='en').text, i])
+                trans_new.append([str(post[0]), translator.translate(post[1], dest='en').text, i])
             except KeyboardInterrupt as e:
                 # сохранение переведённых записей в случае ручной остановки программы
                 log.warning("Сохранение записей в результате остановки скрипта")
@@ -86,6 +85,7 @@ def main():
                 df_translated = stop_and_save(log, trans_new, df_translated, dest_path)
                 trans_new = []
         i += 1
+    # сохранение последней порции данных
     stop_and_save(log, trans_new, df_translated, dest_path)
     return 0
 
