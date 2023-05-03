@@ -1,0 +1,31 @@
+{"locations extra": [
+    {"location_id": "238565563356558", "name": "Каменный остров, Парк Тихий отдых"},
+    {"location_id": "775385489258229", "name": "Юридическое бюро 'Чугаева и Партнеры'"}
+  ],
+  "festival_events": [
+    {"location_id": "569761120142629", "name": "parkrun Елагин остров"},
+    {"location_id": "364704557468064", "name": "Petshop Days"},
+    {"location_id": "269241190453949", "name": "Фестиваль Тюльпанов"},
+    {"location_id": "564635850627512", "name": "Усадьба Джаз"},
+    {"location_id": "173249823604802", "name": "Фестиваль Уличных Театров"}
+  ],
+  "closed": [{"location_id": "768634267", "name": "Norway Park Elagin"}],
+  "osm_check?": [{"location_id": "177634426498771", "name": "Набережная ЦПКиО"}],
+  "osm_true": [
+    {"location_id": "1025264561000150", "name": "Пристань"},
+    {"location_id": "331443764105508", "name": "Теннисный клуб «Елагин остров»"},
+    {"location_id": "348844899022089", "name": "Каток на Елагином"},
+    {"location_id": "315983638957570", "name": "Эстрадный Театр"},
+    {"location_id": "554927564", "name": "Central Park Of Culture And Rest Named After S.M. Kirov / Elaginkiy Istland"},
+    {"location_id": "276374884", "name": "Центральный Парк Культуры И Отдыха Имени"},
+    {"location_id": "2155261351463141", "name": "ЦПКиО им. Кирова / Елагин остров"},
+    {"location_id": "282917579", "name": "Музей Художественного Стекла"},
+    {"location_id": "409442830", "name": "Yelagin Palace"},
+    {"location_id": "1013575390", "name": "Елагин остров"},
+    {"location_id": "512235225", "name": "Елагин дворец"},
+    {"location_id": "222700471", "name": "Елагин Остров (ЦПКиО)"},
+    {"location_id": "863526681", "name": "ЦКПиО"},
+    {"location_id": "41686281", "name": "Цпко"},
+    {"location_id": "1021905073", "name": "ЦПКиО имени С.М. Кирова/ Kirov Central Park"}
+  ]
+}
